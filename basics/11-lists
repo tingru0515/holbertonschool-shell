@@ -1,11 +1,2 @@
 #!/bin/bash
-echo "Current directory:"
-ls -la
-echo ""
-
-echo "Parent directory:"
-ls -la ..
-echo ""
-
-echo "/boot directory:"
-ls -la /boot
+echo -e "#!/bin/bash\nls -la; ls -la ..; ls -la /boot" > 11-lists
