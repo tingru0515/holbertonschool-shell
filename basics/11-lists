@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e "#!/bin/bash\nls -la\nls -la ..\nls -la /boot" > 11-lists
+ls -la .. /boot
