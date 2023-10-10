@@ -1,2 +1,2 @@
 #!/bin/bash
-stat -c "%U" hello | grep -q guillaume && chown vincent hello
+chown --from=guillaume betty hello
